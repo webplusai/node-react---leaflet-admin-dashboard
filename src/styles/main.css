@@ -1,0 +1,64 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+    padding: 20px 0px 0px;
+}
+
+.footer-wrapper {
+    margin: 150px 0px 0px;
+}
+
+.m-b {
+    margin-bottom: 30px;
+}
+
+.m-t {
+    margin-top: 30px;
+}
+
+input[type=checkbox].form-control-checkbox {
+    margin-right: 10px;
+}
+
+.list-image {
+    max-width: 100px;
+}
+
+.show-image {
+    max-width: 550px;
+}
+
+.upload-image {
+    max-width: 300px;
+    margin: 0px 20px 20px 0px;
+}
+
+.yelp-image {
+    max-width: 100px;
+}
+
+.wide-td {
+    min-width: 130px;
+}
+
+.wide-td-md {
+    min-width: 170px;
+}
+
+textarea.form-control {
+    min-height: 95px;
+}

@@ -1,0 +1,324 @@
+@import 'https://fonts.googleapis.com/css?family=Crimson+Text:400,700|Josefin+Sans:400,700|Roboto:400,700';
+
+/*
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Crimson Text', serif;
+*/
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #333;
+}
+
+header {
+    background: url("../img/header_bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-logo {
+    max-width: 91px;
+}
+
+.business-phone {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar-brand {
+    padding: 5px;
+}
+
+/*.hero-area .subscribe-area .form-control.form-control-address {*/
+    /*height: 29px;*/
+/*}*/
+
+.navbar-default .navbar-nav>li>a {
+    color: #f9f9f9;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #f9f9f9;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.navbar-default {
+    background-color: transparent!important;
+    border-color: transparent!important;
+}
+
+.hero-area {
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.hero-area h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 60px;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    line-height: 75px;
+    margin-top: 0px;
+}
+
+.hero-area h4 {
+    font-family: 'Crimson Text', serif;
+    font-size: 26px;
+    line-height: 35px;
+    color: #fff;
+}
+
+.hero-area .subscribe-area .form-control {
+    height: 38px;
+    border-radius: 0px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.hero-area .subscribe-area p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.hero-area .subscribe-area {
+    margin: 0px 8%;
+    padding: 20px;
+    border: 2px solid #fff;
+}
+
+.feacher {
+    padding: 50px 0px;
+}
+
+.feacher-item {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.feacher-item h2 {
+    text-transform: uppercase;
+    font-size: 21px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    line-height: 29px;
+    color: #999999;
+}
+
+.feacher-item p {
+    color: #333;
+    font-size: 16px;
+    line-height: 22px;
+    word-spacing: 3px;
+}
+
+.benefits .col-lg-1,
+.benefits .col-lg-10,
+.benefits .col-lg-11,
+.benefits .col-lg-12,
+.benefits .col-lg-2,
+.benefits .col-lg-3,
+.benefits .col-lg-4,
+.benefits .col-lg-5,
+.benefits .col-lg-6,
+.benefits .col-lg-7,
+.benefits .col-lg-8,
+.benefits .col-lg-9,
+.benefits .col-md-1,
+.benefits .col-md-10,
+.benefits .col-md-11,
+.benefits .col-md-12,
+.benefits .col-md-2,
+.benefits .col-md-3,
+.benefits .col-md-4,
+.benefits .col-md-5,
+.benefits .col-md-6,
+.benefits .col-md-7,
+.benefits .col-md-8,
+.benefits .col-md-9 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.dis {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.dis h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.dis p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: rgb(153, 153, 153);
+}
+
+.get-customer {
+    padding: 40px 0px;
+    background: url("../img/get.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.get-customer hr {
+    border: 1px solid #fff;
+}
+
+.pricing {
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.get-customer h2 {
+    font-size: 35px;
+}
+
+.get-customer button {
+    margin: 20px 0px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 30px;
+}
+
+hr {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #000000;
+    width: 8%;
+}
+
+.section-titel {
+    text-align: center;
+}
+
+.section-titel h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+    letter-spacing: 3px;
+}
+
+.price-area {
+    border: 2px solid #000000;
+    padding: 20px 0px;
+}
+
+.price-area p {
+    font-family: 'Crimson Text', serif;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.price-area h1 {
+    font-size: 100px;
+}
+
+.price-area h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    line-height: 30px;
+}
+
+.partners {
+    background: url("../img/New_York_City_view.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.partner-section-titel {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.partner-section-titel h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.partner-logo {
+    text-align: center;
+}
+
+.partner-logo img {
+    padding: 50px 0px;
+}
+
+.partner-logo .img-responsive {
+    display: initial;
+}
+
+
+/*Footer*/
+
+footer {
+    background: #000000;
+    color: #fff;
+    padding: 20px 0px;
+}
+
+.footer-titel span {
+    border: 2px solid #fff;
+    padding: 10px 35px;
+    font-size: 25px;
+}
+
+.social {
+    padding: 50px 0px 35px 0px;
+}
+
+.social ul li a {
+    color: #fff;
+}
+
+.social ul li a:hover {
+    text-decoration: none;
+}
+
+.copyright {
+    padding: 10px 0px;
+}
+
+.copyright small {
+    color: #8D9DA3;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.footer-menu ul li a {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #566D75;
+}
+
+.footer-menu ul li a:hover {
+    text-decoration: none;
+}
